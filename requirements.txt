@@ -10,4 +10,5 @@ nbformat
 apyori
 ipykernel
 streamlit
-flask
+joblib
+
