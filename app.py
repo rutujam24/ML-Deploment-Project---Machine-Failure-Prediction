@@ -42,7 +42,7 @@ temp_diff = process_temp - air_temp
 
 # Create dataframe (column names must remain same as training data)
 input_data = pd.DataFrame({
-    "Type": [Type],
+    "Type": [Type], # column[]
     "Air temperature [K]": [air_temp],
     "Process temperature [K]": [process_temp],
     "Rotational speed [rpm]": [rot_speed],
@@ -65,4 +65,4 @@ if st.button("Predict Machine Failure"):
     if prediction == 1:
         st.error(" Likely a Machine Failure ")
     else:
-        st.success(" Machine is Operating Normally")
+        st.success(" Machine is Operating Normally") 
