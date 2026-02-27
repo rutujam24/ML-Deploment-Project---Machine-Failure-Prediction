@@ -11,4 +11,3 @@ apyori
 ipykernel
 streamlit
 flask
-
