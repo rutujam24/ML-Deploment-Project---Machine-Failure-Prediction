@@ -11,3 +11,4 @@ apyori
 ipykernel
 streamlit
 joblib
+altair
